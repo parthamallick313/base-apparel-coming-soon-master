@@ -1376,6 +1376,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2615,8 +2619,28 @@ video {
     height: 100%;
   }
 
+  .lg\:h-auto{
+    height: auto;
+  }
+
   .lg\:h-screen{
     height: 100vh;
+  }
+
+  .lg\:max-h-screen{
+    max-height: 100vh;
+  }
+
+  .lg\:max-h-\[438px\]{
+    max-height: 438px;
+  }
+
+  .lg\:min-h-0{
+    min-height: 0px;
+  }
+
+  .lg\:min-h-\[438px\]{
+    min-height: 438px;
   }
 
   .lg\:max-w-\[1440px\]{
@@ -2675,6 +2699,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .xl\:min-h-\[480px\]{
+    min-height: 480px;
+  }
+
   .xl\:flex-\[1\.5\]{
     flex: 1.5;
   }
